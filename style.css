@@ -3,11 +3,16 @@
     padding-right: 1100px;
 }
 
-.small-border {
+.small-border, #hero-image{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    max-width: 100%;
+    height: auto;
 }
 
+#hero-image{
+    max-width: 100%;
+}
 .anual-plan-border{
     border-radius: 10px;
 
@@ -21,8 +26,11 @@
 
 
 #order-summary-block {
-    background-color: grey;
+    background-color: whitesmoke;
     margin-top: -20px;
+    max-width: 100%;
+    float: left;
+    
 }
 
 #order-header-text {
@@ -37,12 +45,19 @@
 
 #annual-plan {
     padding-left: 100px;
-    background-color:white;
+    background-color:rgb(223, 217, 217);
     margin-left:40px;
     margin-right: 40px;
     padding-bottom: 10px;
+    font-size: 1vw;
 }
 
 #annual-plan-price {
     margin-top: -70px;
+    margin-right: 70px;
+}
+
+#change-link {
+    padding-left: 100px;
+    font-size: 1vw;
 }
