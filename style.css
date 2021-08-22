@@ -1,0 +1,37 @@
+#summary-block {
+    padding-left: 500px;
+    padding-right: 1100px;
+}
+
+.small-border {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.anual-plan-border{
+    border-radius: 30px;
+
+}
+
+
+#order-summary-block {
+    background-color: grey;
+    margin-top: -20px;
+}
+
+#order-header-text {
+    text-align: center;
+}
+
+#order-description-text {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+#annual-plan {
+    padding-left: 100px;
+    background-color:white;
+    margin-left:30px;
+    margin-right: 30px;
+}
